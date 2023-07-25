@@ -12,7 +12,7 @@ const routes: Routes = [
     path: '',
     component: LayoutPageComponent,
     children: [
-      { path: 'edit:id', component: NewPageComponent },
+      { path: 'edit/:id', component: NewPageComponent },
       { path: 'list', component: ListPageComponent },
       { path: 'new-hero', component: NewPageComponent },
       { path: 'search', component: SearchPageComponent },
